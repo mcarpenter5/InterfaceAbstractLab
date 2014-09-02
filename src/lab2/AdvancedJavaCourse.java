@@ -18,6 +18,10 @@ public class AdvancedJavaCourse implements Course {
         this.courseNumber=courseNumber;
         this.credits=credits;
     }
+    
+    public AdvancedJavaCourse(){
+        
+    }
 
     public void showPrerequisites() {
         System.out.println("You need to have finished Intro to Java course.");

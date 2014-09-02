@@ -19,6 +19,9 @@ public class IntroToProgrammingCourse implements Course {
         this.credits=credits;
     }
 
+   public IntroToProgrammingCourse() {
+        }
+
     public void showPrerequisites() {
         System.out.println("There are no prerequisites for this course");
     }
