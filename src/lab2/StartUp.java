@@ -12,6 +12,8 @@ package lab2;
  */
 public class StartUp {
     public static void main(String[] args) {
+        // This can be used when it is when it showing an Is'a Relationship
+        // It shouldn't be used when there is something different about the two like an abstraction.
         Course a = new IntroToProgrammingCourse();
         a.setCourseName("Into To programming");
         a.setCourseNumber("5450");
